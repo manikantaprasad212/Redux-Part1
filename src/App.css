@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+.App{
+  width: auto;
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;
+position: relative;
+left: 420px;
+bottom: -150px;
+background-color: rgb(180, 38, 97);
+text-shadow: 10px 10px 1px rgb(104, 111, 182);
+box-shadow: 10px 10px 50px rgb(4, 25, 246);
+}
+
+.img{
+  width: 30px;
+  height: 30px;
+  position: relative;
+  bottom: -10px;
+  display: inline-block;
+}
+
+button{
+  margin: 10px;
+}
+
+button:hover{
+  background-color: aqua;
+  color: brown;
+  border:2px groove greenyellow;
+  border-radius: 50px;
+}
+
+input:hover{
+border-radius: 30px;
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkeWF4VVo3t7duCz30Vzcssv5HV-vGERdbCA&s");
+opacity: 0.5px;
+object-fit: cover;
+}
