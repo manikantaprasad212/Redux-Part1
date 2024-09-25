@@ -10,7 +10,7 @@ function App() {
   });
   return (
     <div className="App">
-      <input ref={inputRef} required placeholder="Prasad Bhai  🌹"></input>
+      <input ref={inputRef} required placeholder="Enter What you want 🌹"></input>
       <button
         onClick={() => {
           dispatch({ type: "addFruits", data: inputRef.current.value });
@@ -44,21 +44,3 @@ function App() {
 export default App;
 
 
-// import './App.css';
-// import { useRef } from 'react'
-// import { useDispatch } from 'react-redux';
-// function App() {
-//   let inputRef = useRef();
-//   let dispatch = useDispatch();
-//   return (
-//     <div className="App">
-// <h1>abc</h1>
-// <input ref={inputRef}></input>
-// <button type='button' onClick={()=>{
-// dispatch({type:"addFruits",data:inputRef.current.value});
-// }}>fruits</button>
-//     </div>
-//   );
-// }
-
-// export default App;
